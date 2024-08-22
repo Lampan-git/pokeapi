@@ -1,0 +1,7 @@
+.venv
+tmp*
+__pycache__
+transformations/logs
+transformations/target
+transformations/profiles/.user.yml
+db/

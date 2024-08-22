@@ -1,0 +1,22 @@
+name: pokemons
+
+config-version: 2
+version: "1.0"
+
+profile: pokemon
+
+model-paths: [models]
+seed-paths: [seeds]
+macro-paths: [macros]
+
+target-path: "target"
+clean-targets:
+  - "target"
+
+# Bättre struktur med en pokemon undermapp i models
+models:
+  pokemons:
+    +tags: ["pokemon"]
+    staging:
+      +schema: stg
+  
